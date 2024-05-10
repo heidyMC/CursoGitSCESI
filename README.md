@@ -1,4 +1,5 @@
-CLASE 1:
+# Curso Git SCESI
+## CLASE 1:
 
 ¿Qué es un control de versiones?
 
