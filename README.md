@@ -24,4 +24,18 @@ Un control de versiones es importante por que:
 Git es un sistema que guarda una copia de todo tu proyecto en tu computadora y en la de tus compañeros, permitiendo registrar los cambios que realizas y sincronizarlos.
 
 ### ¿Qué es un repositorio?
-Es una carpeta donde guardas todos los archivos de tu proyecto  también guarda un registro de todos los cambios que haces en esos archivos a medida que trabajas en tu proyecto.
+Es una carpeta donde guardas todos los archivos de tu proyecto  también guarda un registro de todos los cambios que haces en esos archivos a medida que trabajas en tu proyecto. 
+
+Para crear un repositorio local puedes usar el comando:
+
+1. $ git init `<indicando el nombre del proyecto>` -> creara una carpeta configurada y vacía con el nombre indicado anteriormente
+
+
+Para iniciar en un repositorio de una carpeta ya existente puedes usar el comando git init dentro de la raíz del directorio del proyecto
+
+2. $ git init `<nuevo-proyecto>` -> para inicializar
+
+3. $ cd `<directorio del proyecto que ya existe>`
+
+En ambos casos se creara una rama principal de tu proyecto por defecto y es la que se usara para trabajar
+
