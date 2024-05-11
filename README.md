@@ -52,3 +52,11 @@ Los 3 estados de de git
 3. `$ git commit ` -> registra los cambios realizados en el directorio de trabajo en un nuevo commit en el repositorio local
 4.  `$ git add` -> agrega cambios
 5. $ `git  restore` -> restaura archivos
+
+### ¿Qué es un commit?
+Los commits sirven para registrar los cambios(que tienes en el área de staging) que se han producido en el repositorio y es una pieza fundamental, para hacer commit se usa el comando:
+
+1. `$ git commit` -> creara un nuevo commit en tu repositorio y añadira referencia al commit en la rama que estas trabajando.
+2. `$ git commit -m "escribe tu modificación aqui"` ->  para añadir directamente un mensaje sin abrir el editor.
+3. `$ git commit --amend -m "texto ahi"` ->   permite reescribir un commit.
+4. `$ git log` -> permite ver el historial de commits hechos.
