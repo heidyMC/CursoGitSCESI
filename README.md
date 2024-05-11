@@ -79,5 +79,9 @@ Los 3 estados de de git
 2. `$ git switch <nombre de la rama>` ->para cambiarse de rama
 3. `$ git checkout <nombre de la rama>` -> otra manera de cambiarse de rama
 4. `$ git checkout -b <nombre de la rama>` -> cambia de rama y además crea una nueva
+**Fusionando ramas:**
 
+1. `$ git merge <nombre rama>` ->para incorporar los cambios de una rama a la rama en la que nos encontramos
+2. `$ git merge --edit` -> abre el editor antes de hacer el commit
+3. `$ git merge --no-commit` -> evita que haga commit automaticamente
 
