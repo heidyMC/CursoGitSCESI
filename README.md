@@ -79,9 +79,18 @@ Los 3 estados de de git
 2. `$ git switch <nombre de la rama>` ->para cambiarse de rama
 3. `$ git checkout <nombre de la rama>` -> otra manera de cambiarse de rama
 4. `$ git checkout -b <nombre de la rama>` -> cambia de rama y además crea una nueva
+
 **Fusionando ramas:**
 
 1. `$ git merge <nombre rama>` ->para incorporar los cambios de una rama a la rama en la que nos encontramos
 2. `$ git merge --edit` -> abre el editor antes de hacer el commit
 3. `$ git merge --no-commit` -> evita que haga commit automaticamente
 
+**Elimar ramas ¿por que?**
+
+>Por que es una buena practica, además que las ramas tiene un propósito único y  corto de periodo 
+1. `$ git branch -d <nombre de la rama>` -> borra ramas fusionadas
+2. `$ git branch -a` -> permite visualizar todas las ramas
+* Dato extra:
+3. `$ git log --oneline`  -> muestra los títulos de los commits 
+4. `$ git log --graph` -> muestra el historial de commits de tu repositorio
