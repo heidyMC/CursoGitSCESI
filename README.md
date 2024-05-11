@@ -60,3 +60,12 @@ Los commits sirven para registrar los cambios(que tienes en el área de staging)
 2. `$ git commit -m "escribe tu modificación aqui"` ->  para añadir directamente un mensaje sin abrir el editor.
 3. `$ git commit --amend -m "texto ahi"` ->   permite reescribir un commit.
 4. `$ git log` -> permite ver el historial de commits hechos.
+
+### ¿Qué es el head? 
+Es como un marcador que indica la versión o rama actual en la que estás trabajando en tu repositorio.
+* Para deshacer un archivo modificado: 
+  1. `$ git checkout <código commit>` -> para cambiar entre ramas o para restaurar archivos a una versión anterior
+
+  2. `$ git restore index.html` -> restaura el archivo index.html
+  3. `$ git restore` -> restaurar todo el directorio de trabajo
+  4. `$ git restore '*.js'` -> restaura todos los archivos terminados en *.js
