@@ -39,3 +39,16 @@ Para iniciar en un repositorio de una carpeta ya existente puedes usar el comand
 
 En ambos casos se creara una rama principal de tu proyecto por defecto y es la que se usara para trabajar
 
+### States y commits:
+Los 3 estados de de git 
+
+***Modified:*** Es cuando el archivo se ha creado, modificado o eliminado.
+
+***Starged:*** Se marca el archivo para ser confirmado es transitorio.
+
+***Commited:*** El archivo se encuentra grabado en el repositorio local.
+1. `$ git  status` -> para ver el estado del archivo y en que 2.estado se envuentra
+2. `$ git add` -> permite agregar un archivo
+3. `$ git commit ` -> registra los cambios realizados en el directorio de trabajo en un nuevo commit en el repositorio local
+4.  `$ git add` -> agrega cambios
+5. $ `git  restore` -> restaura archivos
