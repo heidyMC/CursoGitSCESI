@@ -215,14 +215,14 @@ envía al repositorio original.
 ## Aplicar cambios de commits en especifico:
    * `git cherry-pick <SHA>`
 
-## Detectar que commit es el que ha introducido un bug**
+## Detectar que commit es el que ha introducido un bug
  1. `git bisect`
  2. `git bisect start`
  3. `git bisect bad`
  4. `git bisect good`
  5. `git bisect reset`
 
- ## Cambiar el nombre de un commit**
+ ## Cambiar el nombre de un commit
   * `git commit --amend -m <descripcion commit>`
  ## Recupera un archivo en concreto de otra rama o commit
   * `git checkout <SHA> <archivo>`
