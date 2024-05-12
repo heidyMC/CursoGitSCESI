@@ -143,3 +143,10 @@ envía al repositorio original.
 **Tipos de rama**
 * Rama main y cualquier otra rama que quiera ser integrada por medio de una pull.
 
+**Trunk Based Development:**
+>Se basa en trabajar directamente en la rama principal del repositorio, promoviendo cambios frecuentes y pequeños para facilitar la integración continua y la entrega rápida de nuevas características.
+* **Beneficios:**
+1. Integracion continua y menos friccion
+2. Menos trabajo manual
+3. Despliegue a produccion continuo
+
