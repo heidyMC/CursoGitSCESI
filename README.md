@@ -100,3 +100,12 @@ Los 3 estados de de git
 >Los repositorios remotos son versiones de tu proyecto que están alojadas en un servidor en línea estos repositorios permiten colaborar con otras personas en el desarrollo del proyecto, sincronizar tus cambios con otros miembros del equipo y hacer copias de seguridad de tu código.
 1. `$ git remote add origin` <url_de_tu_repositorio_remoto> -> para enlazar el repositorio local con el remoto
 2. `git push origin main` -> se usa para enviar tus cambios locales desde tu rama principal a un repositorio en línea llamado "origin".
+
+**Clonando un repositorio remoto creado previamente:**
+
+1. `$ git clone <url de tu repositorio>` -> para clonar un repositorio remoto.
+
+**Eliminar ramas del repositorio local que no se usan**
+
+1. `$ git fetch` -> se utiliza para recuperar todos los cambios del repositorio remoto a tu repositorio local.
+2. `$ git remote prune origin` ->  se utiliza para eliminar referencias locales a ramas remotas que ya no existen en el repositorio remoto llamado "origin".
