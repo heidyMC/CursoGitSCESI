@@ -154,3 +154,11 @@ envía al repositorio original.
 1. Ship: Se fusiona en la rama principal sin revisión
 2. Show: Abre una petición de cambios para que sean revisados por CI pero se fusiona inmediatamente
 3. Ask: Abre una PR para discutir los cambios antes de fusionarlos
+
+## CLASE 6:
+### Buenas practicas en Git:
+* Hacer a menudo un commit
+* Usar el verbo imperactivo(Add, Change, Fix. Re,mover)
+* No uses punto final ni puntos suspensivos en tus mensajes
+* Usa como máximo 50 caracteres para tu mensaje de commit
+*Añade el contexto necesario en el cuerpo del commit
