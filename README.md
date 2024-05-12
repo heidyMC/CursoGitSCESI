@@ -150,3 +150,7 @@ envía al repositorio original.
 2. Menos trabajo manual
 3. Despliegue a produccion continuo
 
+**Ship/ Show/Ask**
+1. Ship: Se fusiona en la rama principal sin revisión
+2. Show: Abre una petición de cambios para que sean revisados por CI pero se fusiona inmediatamente
+3. Ask: Abre una PR para discutir los cambios antes de fusionarlos
