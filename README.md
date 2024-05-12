@@ -200,3 +200,8 @@ envía al repositorio original.
      4. `post-commit`-> despues de un commit
      5. `pre push` -> antes de sincronizar con el repositorio remoto
      6. `post-checkout y pos-merge` -> permite limpiar algunas ramas que ya no se usan
+*  **Hooks del lado del servidor**
+    1. `pre-receive` -> puedes hacer que algunos commits cumplan con ciertos estandares
+    2. `update` -> Puedes evitar de una forma granular cada actualizacion
+    3. `post-receive` -> Enviar un correo a todos los usuarios del repositorio que se han grabado nuevos cambios en el repositorio remoto
+
