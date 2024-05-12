@@ -93,4 +93,10 @@ Los 3 estados de de git
 2. `$ git branch -a` -> permite visualizar todas las ramas
 * Dato extra:
 3. `$ git log --oneline`  -> muestra los títulos de los commits 
-4. `$ git log --graph` -> muestra el historial de commits de tu repositorio
+4. `$ git log --graph` -> muestra el historial de commits de tu repositorio.
+
+### CLASE 3:
+### Repositorios remotos:
+>Los repositorios remotos son versiones de tu proyecto que están alojadas en un servidor en línea estos repositorios permiten colaborar con otras personas en el desarrollo del proyecto, sincronizar tus cambios con otros miembros del equipo y hacer copias de seguridad de tu código.
+1. `$ git remote add origin` <url_de_tu_repositorio_remoto> -> para enlazar el repositorio local con el remoto
+2. `git push origin main` -> se usa para enviar tus cambios locales desde tu rama principal a un repositorio en línea llamado "origin".
