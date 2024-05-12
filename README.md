@@ -124,8 +124,12 @@ Nos sirve para descargar los cambios o modificaciones del repositorio remoto al 
 **pull request:**
 Es una petición de cambios que se
 envía al repositorio original.
+
 ## CLASE 5:
+
 ### Git Flow
+>Usa diferentes tipos de ramas para manejar características, correcciones y lanzamientos, manteniendo todo ordenado y colaborativo.
+
 **Ramas principales**
 * main o master: Su proposito es contener el código de producción (rama principal) 
 * develop: código de pre-producción que incluye nuevas características que aún no han sido probadas y validadas, pero que están destinadas a ser lanzadas en la próxima versión de producción.
