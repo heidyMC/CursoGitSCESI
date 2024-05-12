@@ -205,3 +205,24 @@ envía al repositorio original.
     2. `update` -> Puedes evitar de una forma granular cada actualizacion
     3. `post-receive` -> Enviar un correo a todos los usuarios del repositorio que se han grabado nuevos cambios en el repositorio remoto
 
+# Tucos en Git:
+
+## Guarda tus cambios temporalmente
+  1. `git stash`
+  2. `git stash -u`
+  3. `git stash pop`
+
+## Aplicar cambios de commits en especifico:
+   * `git cherry-pick <SHA>`
+
+## Detectar que commit es el que ha introducido un bug**
+ 1. `git bisect`
+ 2. `git bisect start`
+ 3. `git bisect bad`
+ 4. `git bisect good`
+ 5. `git bisect reset`
+
+ ## Cambiar el nombre de un commit**
+  * `git commit --amend -m <descripcion commit>`
+ ## Recupera un archivo en concreto de otra rama o commit
+  * `git checkout <SHA> <archivo>`
