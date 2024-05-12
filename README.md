@@ -137,3 +137,9 @@ envía al repositorio original.
 * realese: cambios de ultimo momento
 * hotfix: parches o arreglar bugs pequeño (parte del main)
 
+**GitHub Flow**
+>Es una metodología de trabajo en Git que se basa en el uso de ramas para desarrollar nuevas funciones y corregir errores. Consiste en cuatro pasos: crear una rama, agregar commits, abrir una solicitud de extracción para revisión y fusión de los cambios. Este enfoque permite un desarrollo ágil y colaborativo.
+
+**Tipos de rama**
+* Rama main y cualquier otra rama que quiera ser integrada por medio de una pull.
+
