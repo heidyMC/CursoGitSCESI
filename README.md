@@ -177,3 +177,10 @@ envía al repositorio original.
 **Escribir un buen nombre de rama:**
 * se  consistente al nombrar tus ramas
 * usa el nombre de la acción que se realiza en la rama
+
+## CLASE 7:
+**Comandos destructivos**
+ *Afectan el historial de commits realizado
+   1. `$ git reset --soft <id>`-> Mantiene los cambios que ocurrieon antes de hacer commit desde donde apunta
+   2. `$ git reset --hard <id>`-> Descarta los cambios
+
