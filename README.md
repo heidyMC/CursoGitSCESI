@@ -163,8 +163,7 @@ envía al repositorio original.
 * Usa como máximo 50 caracteres para tu mensaje de commit
 *Añade el contexto necesario en el cuerpo del commit
 
-** Prefijos para commits**
-
+**Prefijos para commits**
 * feat: para una nueva característica para el usuario.
 * fix: para un bug que afecta al usuario.
 * perf: para cambios que mejoran el rendimiento del sitio.
@@ -175,3 +174,6 @@ envía al repositorio original.
 * style: para cambios de formato, tabulaciones, espacios o puntos y coma, no afectan al usuario.
 * test: para tests o refactorización de uno ya existente.
 
+**Escribir un buen nombre de rama:**
+* se  consistente al nombrar tus ramas
+* usa el nombre de la acción que se realiza en la rama
