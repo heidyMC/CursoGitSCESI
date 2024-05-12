@@ -184,3 +184,6 @@ envía al repositorio original.
    1. `$ git reset --soft <id>`-> Mantiene los cambios que ocurrieon antes de hacer commit desde donde apunta
    2. `$ git reset --hard <id>`-> Descarta los cambios
 
+**Comandos no destructivos**
+ * Trabajan en base al historial sin afectarlo
+   * `$ git rever` -> Revierte los cambios que un commit introdujo y crea un nuevo commit con los cambios revertidos
