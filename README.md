@@ -109,3 +109,19 @@ Los 3 estados de de git
 
 1. `$ git fetch` -> se utiliza para recuperar todos los cambios del repositorio remoto a tu repositorio local.
 2. `$ git remote prune origin` ->  se utiliza para eliminar referencias locales a ramas remotas que ya no existen en el repositorio remoto llamado "origin".
+
+### CLASE 4:
+## Push, pull y pull request
+**Push:**
+Se utiliza para enviar tus cambios locales al repositorio remoto
+
+* `$ git push origin <rama>`
+
+**Pull:**
+Nos sirve para descargar los cambios o modificaciones del repositorio remoto al repositorio local
+* `$ git pull origin <rama>`
+**pull request:**
+Es una petición de cambios que se
+envía al repositorio original.
+
+![push,pull](Imágenes/https://www.lidihuo.com/uploads/git/git-pull2.png)
