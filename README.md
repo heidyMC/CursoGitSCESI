@@ -95,7 +95,7 @@ Los 3 estados de de git
 3. `$ git log --oneline`  -> muestra los títulos de los commits 
 4. `$ git log --graph` -> muestra el historial de commits de tu repositorio.
 
-### CLASE 3:
+## CLASE 3:
 ### Repositorios remotos:
 >Los repositorios remotos son versiones de tu proyecto que están alojadas en un servidor en línea estos repositorios permiten colaborar con otras personas en el desarrollo del proyecto, sincronizar tus cambios con otros miembros del equipo y hacer copias de seguridad de tu código.
 1. `$ git remote add origin` <url_de_tu_repositorio_remoto> -> para enlazar el repositorio local con el remoto
@@ -110,8 +110,8 @@ Los 3 estados de de git
 1. `$ git fetch` -> se utiliza para recuperar todos los cambios del repositorio remoto a tu repositorio local.
 2. `$ git remote prune origin` ->  se utiliza para eliminar referencias locales a ramas remotas que ya no existen en el repositorio remoto llamado "origin".
 
-### CLASE 4:
-## Push, pull y pull request
+## CLASE 4:
+### Push, pull y pull request
 **Push:**
 Se utiliza para enviar tus cambios locales al repositorio remoto
 
@@ -120,8 +120,16 @@ Se utiliza para enviar tus cambios locales al repositorio remoto
 **Pull:**
 Nos sirve para descargar los cambios o modificaciones del repositorio remoto al repositorio local
 * `$ git pull origin <rama>`
+
 **pull request:**
 Es una petición de cambios que se
 envía al repositorio original.
+## CLASE 5:
+### Git Flow
+**Ramas principales**
+* main o master: Su proposito es contener el código de producción (rama principal) 
+* develop: código de pre-producción que incluye nuevas características que aún no han sido probadas y validadas, pero que están destinadas a ser lanzadas en la próxima versión de producción.
+* feature: Cuando trabajas en una nueva característica para el proyecto.
+* realese: cambios de ultimo momento
+* hotfix: parches o arreglar bugs pequeño (parte del main)
 
-![push,pull](Imágenes/https://www.lidihuo.com/uploads/git/git-pull2.png)
