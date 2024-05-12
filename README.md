@@ -162,3 +162,16 @@ envía al repositorio original.
 * No uses punto final ni puntos suspensivos en tus mensajes
 * Usa como máximo 50 caracteres para tu mensaje de commit
 *Añade el contexto necesario en el cuerpo del commit
+
+** Prefijos para commits**
+
+* feat: para una nueva característica para el usuario.
+* fix: para un bug que afecta al usuario.
+* perf: para cambios que mejoran el rendimiento del sitio.
+* build: para cambios en el sistema de build, tareas de despliegue o instalación.
+* ci: para cambios en la integración continua.
+* docs: para cambios en la documentación.
+* refactor: para refactorización del código como cambios de nombre de variables o funciones.
+* style: para cambios de formato, tabulaciones, espacios o puntos y coma, no afectan al usuario.
+* test: para tests o refactorización de uno ya existente.
+
