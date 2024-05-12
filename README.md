@@ -179,6 +179,7 @@ envía al repositorio original.
 * usa el nombre de la acción que se realiza en la rama
 
 ## CLASE 7:
+### Comandos destructivos y no destructivos
 **Comandos destructivos**
  *Afectan el historial de commits realizado
    1. `$ git reset --soft <id>`-> Mantiene los cambios que ocurrieon antes de hacer commit desde donde apunta
@@ -187,3 +188,15 @@ envía al repositorio original.
 **Comandos no destructivos**
  * Trabajan en base al historial sin afectarlo
    * `$ git rever` -> Revierte los cambios que un commit introdujo y crea un nuevo commit con los cambios revertidos
+
+## CLASE 8:
+### Hooks, Alias y Trucos de Git:
+>Un hook es la posibilidad de ejecutar una accion o script cada vez que ocurre un evento 
+
+ * **Hooks del lado del cliente:**
+     1. `pre-commit` -> acciones que se ejecutan antes del commit
+     2. `prepare-commit-msg` -> antes de modificar el mensaje del commit
+     3. `commit-msg` -> cuando se realiza el mensaje de commit
+     4. `post-commit`-> despues de un commit
+     5. `pre push` -> antes de sincronizar con el repositorio remoto
+     6. `post-checkout y pos-merge` -> permite limpiar algunas ramas que ya no se usan
